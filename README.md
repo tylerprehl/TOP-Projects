@@ -1,4 +1,4 @@
-# TOP-Projects
+# T Prehl's TOP Projects
 
 This repository was created with the purpose of housing all of the projects I created while progressing through the The Odin Project (TOP) curriculum.
 
