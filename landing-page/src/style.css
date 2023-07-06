@@ -1,5 +1,20 @@
+@font-face {
+    font-family: roboto-regular;
+    src: url(../Roboto/Roboto-Regular.ttf)
+}
+
+@font-face {
+    font-family: roboto-extra-bold;
+    src: url(../Roboto/Roboto-Bold.ttf)
+}
+
+@font-face {
+    font-family: roboto-light-italic;
+    src: url(../Roboto/Roboto-LightItalic.ttf)
+}
+
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: roboto-regular, Verdana, Geneva, Tahoma, monospace;
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -52,7 +67,6 @@ a:hover {
 }
 
 .header-content {
-    display: flex;
     align-items: center;
     gap: 15px;
     padding-top: 15px;
@@ -88,7 +102,6 @@ a:hover {
 }
 
 .hero-content {
-    display: flex;
     height: 200px;
     padding-top: 15px;
     align-items: center;
@@ -108,7 +121,7 @@ a:hover {
 
 .hero-main {
     font-size: 48px;
-    font-weight: bold;
+    font-family: roboto-extra-bold;
     color: #F9FAF8;
 }
 
@@ -139,7 +152,6 @@ a:hover {
 }
 
 .info-content {
-    display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 0;
@@ -147,7 +159,7 @@ a:hover {
 
 .info-header {
     font-size: 36px;
-    font-weight: bold;
+    font-family: roboto-extra-bold;
     height: 3.25em;
     display: flex;
     flex-shrink: 0;
@@ -186,6 +198,35 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
+
+/* QUOTE-SPECIFIC SECTION */
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+.quote-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box {
+    width: 600px;
+    margin: 5em 0 5em 0;
+}
+
+.quote {
+    font-size: 36px;
+    font-family: roboto-light-italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-size: 16px;
+    font-family: roboto-extra-bold;
+    text-align: right;
+}
+
 
 /* FOOTER-SPECIFIC RULES */
 .footer-content {
