@@ -38,7 +38,11 @@ a:hover {
 .quote-content, 
 .signup-content,
 .footer-content {
+    box-sizing: border-box;
+    padding: 20px;
     width: 800px;
+    display: flex;
+    flex-shrink: 0;
 }
 
 /* HEADER-SPECIFIC RULES */
@@ -117,9 +121,75 @@ a:hover {
     font-weight: bold;
     padding: 8px 24px 8px 24px;
     align-self: flex-start;
-
 }
 
-.footer-container {
+.hero-button:active {
+    background-color: #2f6aca;
+}
+
+.hero-image {
+    box-sizing: border-box;
+    width: 380px;
+}
+
+/* INFORMATION-SPECIFIC RULES */
+.info-container {
+    min-height: 375px;
+    flex-grow: 1;
+}
+
+.info-content {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bold;
+    height: 3.25em;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.info-boxes {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.info-box {
+    text-align: center;
+    font-size: 16px;
+    color: rgb(94, 94, 94);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.info-image {
+    width: 150px;
+    border-radius: 16px;
+}
+
+.box-image {
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    border: 5px solid aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FOOTER-SPECIFIC RULES */
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
