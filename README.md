@@ -5,8 +5,8 @@ This repository was created with the purpose of housing all of the projects I cr
 Each main folder represents a single project. For example, Landing-Page represents the project titled "Project: Landing Page" in the TOP Foundations Course.
 
 ## Landing Page Images
-Jellyfish Logo Circles - Tom Anders Watkins, EarthTouch News Network
-Scuba Diver - Storyblocks.com
-Jetski - Vectorportal.com
-Canoe - Shutterstock.com (Contributor - MT Graph)
-Kayak - Lovepik.com
+Jellyfish Logo Circles - Tom Anders Watkins, EarthTouch News Network<br>
+Scuba Diver - Storyblocks.com<br>
+Jetski - Vectorportal.com<br>
+Canoe - Shutterstock.com (Contributor - MT Graph)<br>
+Kayak - Lovepik.com<br>
