@@ -1,8 +1,8 @@
-# T Prehl's TOP Projects
+# The Odin Project - Landing Page
 
-This repository was created with the purpose of housing all of the projects I created while progressing through the The Odin Project (TOP) curriculum. (https://www.theodinproject.com/)
+This repository was created with the purpose of housing the "Landing Page" project form theThe Odin Project's (TOP) curriculum. (https://www.theodinproject.com/)
 
-Each main folder represents a single project. For example, Landing-Page represents the project titled "Project: Landing Page" in the TOP Foundations Course.
+The page can be viewed from the following URL: https://tylerprehl.github.io/top-landing-page/
 
 ## Landing Page Images
 Jellyfish Logo Circles - Tom Anders Watkins, EarthTouch News Network<br>
