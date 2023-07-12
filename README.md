@@ -6,6 +6,7 @@ Each main folder represents a single project. For example, Landing-Page represen
 
 ## Landing Page Images
 Jellyfish Logo Circles - Tom Anders Watkins, EarthTouch News Network<br>
+Snorkling Person - The Trend Spotter, Alex Linde<br>
 Scuba Diver - Storyblocks.com<br>
 Jetski - Vectorportal.com<br>
 Canoe - Shutterstock.com (Contributor - MT Graph)<br>
